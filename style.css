@@ -53,3 +53,9 @@ p,button {
 .flavour-cards >div{
   width: 366px;
 }
+.history{
+  width: 298px !important;
+}
+.history-desc{
+  background: #1C1814;
+}
