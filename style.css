@@ -3,11 +3,23 @@
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  background: #14110E;
+body {
+  background: #14110e;
 }
 .header {
   background: #1c1814;
+}
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #c99e71;
+}
+h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  color: #ffffff;
 }
 .custom-container {
   width: 992px;
@@ -28,7 +40,8 @@ h1 {
   line-height: 130%;
   color: #ffffff;
 }
-p,button {
+p,
+button {
   font-weight: 500;
   font-size: 20px;
   line-height: 180%;
@@ -47,15 +60,60 @@ p,button {
   border: none;
   background: #c99e71;
 }
-.play-btn{
+.play-btn {
   padding-bottom: 90px;
 }
-.flavour-cards >div{
+.flavour-cards > div {
   width: 366px;
 }
-.history{
+.history {
   width: 298px !important;
 }
-.history-desc{
-  background: #1C1814;
+.history-desc {
+  background: #1c1814;
+  width: 42%;
+}
+.popular > div > a,
+.machine a {
+  width: 252px;
+  height: 62px;
+  background: #c99e71;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.popular__cards > div {
+  background: #121315;
+  width: 366px !important;
+  height: 579px;
+}
+.popular__cards p {
+  margin: 36px 0 38px 0;
+}
+
+.machine > div {
+  background: #1c1814;
+}
+.machine__coffee {
+  margin: 85px 0 85px 169px;
+}
+.machine__description p {
+  width: 535px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+}
+.menu__cards img{
+  width: 72px;
+  margin-right: 20px;
+}
+.menu__cards > div >div {
+  border: 1px solid #32323D;
+  padding: 24px;
+  margin-bottom: 36px;
 }
